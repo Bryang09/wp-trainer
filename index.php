@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" />
     <title><?php bloginfo('name') ?> | <?php bloginfo('description') ?> </title>
     <?php wp_head() ?>
-    
+    <style>
+      .heroImg{
+        background: url(<?php echo get_theme_mod('hero_image', get_bloginfo('template_url') . '/img/showcase.jpg') ?>) no-repeat center 1% / cover;
+      }
+    </style>
   </head>
   <body>
   
@@ -32,15 +36,10 @@
     </section>
 
     <section class="Sub1">
-      <h1></h1>
+      <h1><?php echo get_theme_mod('sub1_title', 'What Drives Us') ?></h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet qui,
-        et vitae quisquam iure maiores cumque non impedit assumenda fugiat
-        aspernatur adipisci quaerat velit blanditiis ipsa esse! Quasi, iste.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-        maiores, explicabo quia perspiciatis mollitia porro, laborum distinctio
-        aliquam quae quaerat quibusdam assumenda nemo, minus culpa? Quos aperiam
-        eius nesciunt ex.
+          <?php echo get_theme_mod('sub1_text', '
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet qui, et vitae quisquam iure maiores cumque non impedit assumenda fugiat aspernatur adipisci quaerat velit blanditiis ipsa esse! Quasi, iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores, explicabo quia perspiciatis mollitia porro, laborum distinctio aliquam quae quaerat quibusdam assumenda nemo, minus culpa? Quos aperiam eius nesciunt ex.') ?>
       </p>
     </section>
 

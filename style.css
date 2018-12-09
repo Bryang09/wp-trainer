@@ -16,9 +16,6 @@ body {
 }
 
 .Hero .heroImg {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-    url(https://images.pexels.com/photos/136409/pexels-photo-136409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
-      no-repeat center 0 / cover;
   height: 100vh;
   background-attachment: fixed;
   display: flex;
