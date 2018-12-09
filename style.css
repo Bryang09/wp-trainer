@@ -97,9 +97,7 @@ body {
 }
 .Sub2 .sub2Img {
   height: 45vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://images.pexels.com/photos/28061/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-      no-repeat center 20% / cover;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

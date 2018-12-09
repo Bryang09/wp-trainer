@@ -15,6 +15,9 @@
       .heroImg{
         background: url(<?php echo get_theme_mod('hero_image', get_bloginfo('template_url') . '/img/showcase.jpg') ?>) no-repeat center 1% / cover;
       }
+      .sub2Img{
+        background: url(<?php echo get_theme_mod('sub2_image', get_bloginfo('template_url') . '/img/sub2.jpg') ?>) no-repeat center 1% / cover;
+      }
     </style>
   </head>
   <body>
@@ -38,54 +41,37 @@
     <section class="Sub1">
       <h1><?php echo get_theme_mod('sub1_title', 'What Drives Us') ?></h1>
       <p>
-          <?php echo get_theme_mod('sub1_text', '
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet qui, et vitae quisquam iure maiores cumque non impedit assumenda fugiat aspernatur adipisci quaerat velit blanditiis ipsa esse! Quasi, iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores, explicabo quia perspiciatis mollitia porro, laborum distinctio aliquam quae quaerat quibusdam assumenda nemo, minus culpa? Quos aperiam eius nesciunt ex.') ?>
+          <?php echo get_theme_mod('sub1_text', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet qui, et vitae quisquam iure maiores cumque non impedit assumenda fugiat aspernatur adipisci quaerat velit blanditiis ipsa esse! Quasi, iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores, explicabo quia perspiciatis mollitia porro, laborum distinctio aliquam quae quaerat quibusdam assumenda nemo, minus culpa? Quos aperiam eius nesciunt ex.') ?>
       </p>
     </section>
 
     <section class="Sub2">
       <div class="Sub2">
         <div class="sub2Img">
-          <h3>Training</h3>
-          <h2><span>Services</span> we offer</h2>
+          <h3><?php echo get_theme_mod('sub2_title', 'TRAINING SERVICES WE OFFER') ?></h3>
         </div>
         <div class="sub2Prices">
           <div class="priceBox">
             <div class="priceText">
-              <h2>Cardio</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci
-                sed at similique eaque aliquam pariatur doloribus inventore
-                molestias repellendus? Molestiae, ad doloremque?
-              </p>
-              <h4><b> $45/month </b></h4>
+              <h2><?php echo get_theme_mod('box1_title', 'Cardio') ?></h2>
+              <p><?php echo get_theme_mod('box1_text', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci sed at similique eaque aliquam pariatur doloribus inventore molestias repellendus? Molestiae, ad doloremque?') ?></p>
+              <h4><b> $<?php echo get_theme_mod('box1_price', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci sed at similique eaque aliquam pariatur doloribus inventore molestias repellendus? Molestiae, ad doloremque?') ?>/month </b></h4>
             </div>
           </div>
 
           <div class="priceBox" id="second">
-            <div class="priceText">
-              <h2>Body Weight</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci
-                sed at similique eaque aliquam pariatur doloribus inventore
-                molestias repellendus? Molestiae, ad doloremque?
-              </p>
-              <h4><b> $40/month </b></h4>
+          <div class="priceText">
+              <h2><?php echo get_theme_mod('box2_title', 'Body Weight') ?></h2>
+              <p><?php echo get_theme_mod('box2_text', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci sed at similique eaque aliquam pariatur doloribus inventore molestias repellendus? Molestiae, ad doloremque?') ?></p>
+              <h4><b> $<?php echo get_theme_mod('box2_price', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci sed at similique eaque aliquam pariatur doloribus inventore molestias repellendus? Molestiae, ad doloremque?') ?>/month </b></h4>
             </div>
           </div>
 
           <div class="priceBox">
-            <div class="priceText">
-              <h2>Resistance Training</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci
-                sed at similique eaque aliquam pariatur doloribus inventore
-                molestias repellendus? Molestiae, ad doloremque?
-              </p>
-              <h4><b> $50/month </b></h4>
+          <div class="priceText">
+              <h2><?php echo get_theme_mod('box3_title', 'Resistance Training') ?></h2>
+              <p><?php echo get_theme_mod('box3_text', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci sed at similique eaque aliquam pariatur doloribus inventore molestias repellendus? Molestiae, ad doloremque?') ?></p>
+              <h4><b> $<?php echo get_theme_mod('box3_price', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, enim ipsa modi quis harum repellendus ea! Adipisci sed at similique eaque aliquam pariatur doloribus inventore molestias repellendus? Molestiae, ad doloremque?') ?>/month </b></h4>
             </div>
           </div>
         </div>
