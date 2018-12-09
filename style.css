@@ -35,6 +35,7 @@ body {
 .Hero .heroImg .heroText h1 {
   font-size: 5em;
   margin-bottom: 2vh;
+  color: #00fc7e;
 }
 .Hero .heroImg .heroText h2 {
   width: 80%;
@@ -46,7 +47,7 @@ body {
 .Hero .heroImg .heroText h3 {
   font-size: 2em;
   text-transform: uppercase;
-  color: #00fc7e;
+  color: #fff;
 }
 
 .Hero .heroImg .heroText .heroButtons {
@@ -60,6 +61,10 @@ body {
   border-radius: 35px;
   padding: 2vh 3vw;
   cursor: pointer;
+}
+.Hero .heroImg .heroText .heroButtons h5 a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .Hero .heroImg .heroText .heroButtons h5:nth-child(1) {

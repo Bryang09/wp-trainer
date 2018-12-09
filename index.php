@@ -10,27 +10,29 @@
     />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" />
     <title><?php bloginfo('name') ?> | <?php bloginfo('description') ?> </title>
+    <?php wp_head() ?>
+    
   </head>
   <body>
+  
     <section class="Hero">
       <div class="heroImg">
         <div class="heroText">
-          <h1><?php bloginfo('name') ?> </h1>
-          <h3>Personal Trainer</h3>
-          <h2>
-            LOOKING FOR PERSONALIZED PERSONAL TRAINING? THEN YOU ARE IN THE
-            RIGHT PLACE!
+          <h1><?php echo get_theme_mod('hero_heading', 'Elsa Mars') ?> </h1>
+          <h3><?php echo get_theme_mod('hero_sub_heading', 'Personal Trainer') ?></h3>
+          <h2 style="text-transform: 'uppercase' ">
+           <?php echo get_theme_mod('hero_text', 'looking for personalized personal training? then you are in the right place!!') ?>
           </h2>
           <div class="heroButtons">
-            <h5>View Pricing</h5>
-            <h5>Testimonials</h5>
+            <h5><a href="<?php echo get_theme_mod('btn1_url', 'http://test.com') ?>"><?php echo get_theme_mod('hero_btn1', 'View Pricing') ?></a></h5>
+            <h5><a href="<?php echo get_theme_mod('btn2_url', 'http://test.com') ?> "></a><?php echo get_theme_mod('hero_btn2', 'Testimonials') ?></h5>
           </div>
         </div>
       </div>
     </section>
 
     <section class="Sub1">
-      <h1>What Drives Us</h1>
+      <h1></h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet qui,
         et vitae quisquam iure maiores cumque non impedit assumenda fugiat
@@ -208,5 +210,6 @@
         <h3>Snapchat</h3>
       </div>
     </footer>
+    <?php wp_footer() ?>
   </body>
 </html>
