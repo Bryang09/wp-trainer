@@ -1,0 +1,543 @@
+/* 
+  Theme Name: Wordpress Trainer
+  Author: Bryan Gonzalez
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Hero Styles */
+
+.Hero {
+  min-height: 100vh;
+}
+
+.Hero .heroImg {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://images.pexels.com/photos/136409/pexels-photo-136409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+      no-repeat center 0 / cover;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Hero .heroImg .heroText {
+  text-align: center;
+  width: 50%;
+  color: #fff;
+}
+
+.Hero .heroImg .heroText h1 {
+  font-size: 5em;
+  margin-bottom: 2vh;
+}
+.Hero .heroImg .heroText h2 {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.Hero .heroImg .heroText h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #00fc7e;
+}
+
+.Hero .heroImg .heroText .heroButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.Hero .heroImg .heroText .heroButtons h5 {
+  margin: 2vh 0.5vw;
+  border: 1px solid #fff;
+  border-radius: 35px;
+  padding: 2vh 3vw;
+  cursor: pointer;
+}
+
+.Hero .heroImg .heroText .heroButtons h5:nth-child(1) {
+  border: 1px solid #00ff7f;
+}
+
+/* Sub1 */
+
+.Sub1 {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sub1 h1 {
+  color: #333;
+  border-bottom: 2px solid;
+  font-size: 2em;
+}
+
+.Sub1 p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: #8d8d8d;
+}
+
+/* Sub2 */
+.Sub2 {
+  height: 100%;
+}
+.Sub2 .sub2Img {
+  height: 45vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://images.pexels.com/photos/28061/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat center 20% / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10vw;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.Sub2 .sub2Img h2 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.Sub2 .sub2Img h2 span {
+  color: #00ff7f;
+}
+
+.Sub2 .sub2Img h3 {
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.Sub2 .sub2Prices {
+  height: 40vh;
+  width: 70%;
+  margin: 0 auto;
+  transform: translateY(-13vh);
+  display: flex;
+  background: linear-gradient(90deg, #00d5ff, #55d29b, #00ff7f);
+}
+
+.Sub2 .sub2Prices .priceBox {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#second {
+  box-shadow: 0 15px 25px -7px rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.Sub2 .sub2Prices .priceBox:hover {
+  box-shadow: 0 15px 25px -7px rgba(0, 0, 0, 0.2),
+    0 -12px 10px -10px rgba(0, 0, 0, 0.01);
+  transition-duration: 0.5s;
+}
+
+.Sub2 .sub2Prices .priceBox .priceText {
+  width: 90%;
+  margin: 0 auto;
+  color: #8d8d8d;
+  color: #fff;
+}
+
+.Sub2 .sub2Prices .priceBox .priceText h4 {
+  font-weight: 400;
+}
+
+/* SUB3 */
+
+.Sub3 {
+  height: 100%;
+  display: flex;
+  box-shadow: 1px 15px 80px#8d8d8d;
+  margin: 5vh 0;
+}
+
+.Sub3 .sub3Img {
+  width: 45%;
+  height: 50vh;
+  background: url("https://images.pexels.com/photos/136410/pexels-photo-136410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    no-repeat center center / cover;
+  margin-left: 1vw;
+}
+
+.Sub3 .sub3Text {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 8vw;
+}
+
+.Sub3 .sub3Text .schedule {
+  width: 100%;
+  height: 80%;
+}
+
+.Sub3 .sub3Text .schedule .event {
+  display: flex;
+  height: 25%;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+.Sub3 .sub3Text .schedule .event .left {
+  width: 50%;
+}
+
+.Sub3 .sub3Text .schedule .event .left h3 {
+  border-left: 3px solid #00d5ff;
+  padding-left: 0.5vw;
+}
+
+.Sub3 .sub3Text .schedule .event .left h4 {
+  font-weight: 400;
+  color: #8d8d8d;
+  margin-bottom: 2vh;
+}
+
+.Sub3 .sub3Text .schedule .event .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.Sub3 .sub3Text .schedule .event .right h5 {
+  border: 1px solid #00d5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  padding: 1vh 2vh;
+  cursor: pointer;
+}
+
+.Sub3 .sub3Text .schedule .event .right h5:hover {
+  background: #00d5ff;
+  cursor: pointer;
+  transition: 1s ease;
+  color: #fff;
+}
+
+/* SUB4 */
+
+.Sub4 {
+  height: 100%;
+  /* // background: #333; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Sub4 h1 {
+  border-bottom: 3px solid #333;
+}
+
+.Sub4 .Reviews {
+  width: 80%;
+  /* // background: red; */
+  height: 50vh;
+  display: flex;
+}
+
+.Sub4 .Reviews .Review {
+  width: 30%;
+  margin: 0 1.5%;
+  /* // background: blue; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sub4 .Reviews .Review .reviewImg {
+  height: 60%;
+  border-radius: 50%;
+  width: 60%;
+  margin: 1vh auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Sub4 .Reviews .Review .reviewText {
+  text-align: center;
+}
+
+.Sub4 .Reviews .Review .reviewText h4 {
+  margin-bottom: 0.5vh;
+}
+
+.Sub4 .Reviews .Review .reviewText h5 {
+  color: #00d5ff;
+  margin: 0;
+}
+
+/* SUB5 */
+
+.Sub5 {
+  height: 100%;
+  margin: 5vh 0;
+  box-shadow: 1px 15px 80px #8d8d8d;
+}
+
+.Sub5 .Container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Sub5 .Container .sub5Img {
+  height: 100%;
+  width: 50%;
+  background: url("https://images.pexels.com/photos/136394/pexels-photo-136394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sub5 .Container .sub5Img h1 {
+  margin-left: 20vw;
+  color: #00d5ff;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Sub5 .Container .sub5Text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.Sub5 .Container .sub5Text h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #8d8d8d;
+  text-align: center;
+}
+
+.Sub5 .Container .sub5Text h1 span {
+  color: #00ff7f;
+}
+
+.Sub5 .Container .sub5Text p {
+  width: 90%;
+  margin: 0 auto;
+  color: #8d8d8d;
+}
+
+.Footer {
+  height: 5vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer h2 {
+  color: #fff;
+  font-weight: 400;
+  margin: 0 0 0 2vw;
+  width: 40%;
+}
+
+.Footer .links {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2vw;
+}
+
+.Footer .links h3 {
+  margin: 0 0.8vw;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 300;
+}
+
+.Footer .links h3:hover {
+  color: #00d5ff;
+}
+
+@media screen and (min-width: 1171px) {
+  .Sub2 .sub2Prices {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .Sub2 .sub2Prices {
+    width: 90%;
+  }
+  .Sub3 {
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .Sub3 .sub3Img {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto 15vh;
+    background: url(https://images.pexels.com/photos/136410/pexels-photo-136410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+      no-repeat 1% center/cover;
+  }
+  .Sub3 .sub3Text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .Sub4 .Reviews {
+    width: 90%;
+  }
+  .Sub4 .Reviews .Review .reviewImg {
+    border-radius: 0;
+    width: 100%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Hero .heroImg .heroText {
+    width: 100%;
+  }
+  .Hero .heroImg .heroText .heroButtons h5 {
+    margin: 2vh 1.5vw;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    padding: 2vh 5vw;
+    cursor: pointer;
+  }
+
+  .Sub1 {
+    margin-bottom: 5vh;
+  }
+
+  .Sub2 .sub2Prices {
+    flex-direction: column;
+    height: 100%;
+    transform: translateY(0%);
+    width: 100%;
+    background: none;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #eeefee;
+  }
+
+  .Sub2 .sub2Prices .priceBox {
+    height: 40vh;
+  }
+  .Sub2 .sub2Prices .priceBox:hover {
+    box-shadow: 0 15px 25px -7px rgba(255, 255, 255, 0.2),
+      0 -12px 10px -10px rgba(255, 255, 255, 0.01);
+    transition-duration: 0.5s;
+  }
+  .Sub2 .sub2Prices .priceBox:nth-child(1) {
+    background: #00d5ff;
+  }
+  .Sub2 .sub2Prices .priceBox:nth-child(2) {
+    box-shadow: none;
+    background: #00fc7e;
+  }
+  .Sub2 .sub2Prices .priceBox:nth-child(3) {
+    background: #8424ec;
+  }
+
+  .Sub4 .Reviews {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .Sub4 .Reviews .Review {
+    flex-direction: row;
+    width: 100%;
+    margin: 2vh 0;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .Sub4 .Reviews .Review .reviewImg {
+    width: 100%;
+    height: 100%;
+    margin-right: 2vw;
+  }
+  .Sub4 .Reviews .Review .reviewImg h4 {
+    margin-top: 0;
+  }
+
+  .Sub5 {
+    box-shadow: none;
+  }
+  .Sub5 .Container {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .Sub5 .Container .sub5Img {
+    height: 60%;
+    width: 100%;
+    margin: 0;
+    background: url("https://images.pexels.com/photos/136394/pexels-photo-136394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      no-repeat center center / cover;
+  }
+  .Sub5 .Container .sub5Text {
+    width: 90%;
+    margin-bottom: 5vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Sub4 .Reviews {
+    flex-direction: column;
+    height: 150vh;
+  }
+  .Sub4 .Reviews .Review {
+    flex-direction: column;
+    width: 100%;
+    margin: 2vh 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid #8d8d8d;
+  }
+  .Sub4 .Reviews .Review .reviewImg {
+    width: 100%;
+    height: 100%;
+    margin-right: 2vw;
+  }
+  .Sub4 .Reviews .Review .reviewImg h4 {
+    margin-top: 0;
+  }
+  .Sub5 .Container .sub5Text {
+    padding-top: 3vh;
+  }
+  .Footer h2 {
+    font-size: 16px;
+  }
+
+  .Footer h3 {
+    font-size: 14px;
+  }
+}
