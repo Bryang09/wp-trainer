@@ -177,12 +177,12 @@
     </section>
 
     <footer class="Footer">
-      <h2>&copy; Elsa Mars</h2>
+      <h2>&copy; <?php echo get_theme_mod('footer_title', 'Elsa Mars') ?></h2>
       <div class="links">
-        <h3>Facebook</h3>
-        <h3>Instagram</h3>
-        <h3>Twitter</h3>
-        <h3>Snapchat</h3>
+        <h3><a href="<?php echo get_theme_mod('footer_link1_url', 'http://test.com') ?>"><?php echo get_theme_mod('footer_link1', 'Facebook') ?></a></h3>
+        <h3><a href="<?php echo get_theme_mod('footer_link2_url', 'http://test.com') ?>"><?php echo get_theme_mod('footer_link2', 'Instagram') ?></a></h3>
+        <h3><a href="<?php echo get_theme_mod('footer_link3_url', 'http://test.com') ?>"><?php echo get_theme_mod('footer_link3', 'Twitter') ?></a></h3>
+        <h3><a href="<?php echo get_theme_mod('footer_link4_url', 'http://test.com') ?>"><?php echo get_theme_mod('footer_link4', 'Snapchat') ?></a></h3>
       </div>
     </footer>
     <?php wp_footer() ?>

@@ -383,6 +383,9 @@ a {
 .Footer .links h3:hover {
   color: #00d5ff;
 }
+.Footer .links h3 a {
+  color: #fff;
+}
 
 @media screen and (min-width: 1171px) {
   .Sub2 .sub2Prices {

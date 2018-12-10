@@ -776,12 +776,12 @@ function wp_customize_register($wp_customize)
   ));
 
   $wp_customize->add_setting('footer_link3', array(
-    'default' => __('Instagram', 'Elsa Mars'),
+    'default' => __('Twitter', 'Elsa Mars'),
     'type' => 'theme_mod'
   ));
 
   $wp_customize->add_control('footer_link3', array(
-    'label' => __('Footer Link 2'),
+    'label' => __('Footer Link 3'),
     'section' => 'footer',
     'priority' => 3
   ));
@@ -791,7 +791,27 @@ function wp_customize_register($wp_customize)
   ));
 
   $wp_customize->add_control('footer_link3_url', array(
-    'label' => __('Footer Link 2 URL'),
+    'label' => __('Footer Link 3 URL'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+  $wp_customize->add_setting('footer_link4', array(
+    'default' => __('Snapchat', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link4', array(
+    'label' => __('Footer Link 4'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+  $wp_customize->add_setting('footer_link4_url', array(
+    'default' => __('http://test.com', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link4_url', array(
+    'label' => __('Footer Link 4 URL'),
     'section' => 'footer',
     'priority' => 3
   ));
