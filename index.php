@@ -84,31 +84,34 @@
         <div class="schedule">
           <div class="event">
             <div class="left">
-              <h3>Cardio</h3>
-              <h4>7:00 - 8:00 A.M</h4>
+              <h3><?php echo get_theme_mod('row1_type', 'Cardio') ?></h3>
+              <h4><?php echo get_theme_mod('row1_time', '7:00 - 8:00') ?>A.M</h4>
             </div>
-            <div class="right"><h5>Sign Up</h5></div>
+            <div class="right"><h5><a href="<?php echo get_theme_mod('row1_btn_url', 'Sign Up') ?>"><?php echo get_theme_mod('row1_button_text', 'Sign Up') ?></a></h5></div>
           </div>
           <div class="event">
             <div class="left">
-              <h3>Weight Lifting</h3>
-              <h4>8:00 - 9:00 A.M</h4>
+              <h3><?php echo get_theme_mod('row2_type', 'Weight Lifting') ?></h3>
+              <h4><?php echo get_theme_mod('row2_time', '8:00 - 9:00') ?>A.M</h4>
             </div>
-            <div class="right"><h5>Sign Up</h5></div>
+            <div class="right"><h5><a href="<?php echo get_theme_mod('row2_btn_url', 'Sign Up') ?>"><?php echo get_theme_mod('row2_button_text', 'Sign Up') ?></a></h5></div>
+
           </div>
           <div class="event">
             <div class="left">
-              <h3>Boxing</h3>
-              <h4>9:00 - 10:00 A.M</h4>
+              <h3><?php echo get_theme_mod('row3_type', 'Boxing') ?></h3>
+              <h4><?php echo get_theme_mod('row3_time', '9:00 - 10:00') ?>A.M</h4>
             </div>
-            <div class="right"><h5>Sign Up</h5></div>
+            <div class="right"><h5><a href="<?php echo get_theme_mod('row3_btn_url', 'Sign Up') ?>"><?php echo get_theme_mod('row3_button_text', 'Sign Up') ?></a></h5></div>
+
           </div>
           <div class="event">
             <div class="left">
-              <h3>Yoga</h3>
-              <h4>10:00 - 11:00 A.M</h4>
+              <h3><?php echo get_theme_mod('row4_type', 'Yoga') ?></h3>
+              <h4><?php echo get_theme_mod('row4_time', '10:00 - 11:00') ?>A.M</h4>
             </div>
-            <div class="right"><h5>Sign Up</h5></div>
+            <div class="right"><h5><a href="<?php echo get_theme_mod('row4_btn_url', 'Sign Up') ?>"><?php echo get_theme_mod('row4_button_text', 'Sign Up') ?></a></h5></div>
+
           </div>
         </div>
       </div>
