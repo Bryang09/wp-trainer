@@ -18,6 +18,15 @@
       .sub2Img{
         background: url(<?php echo get_theme_mod('sub2_image', get_bloginfo('template_url') . '/img/sub2.jpg') ?>) no-repeat center 1% / cover;
       }
+      #chandler{
+        background: url(<?php echo get_theme_mod('box1_image', get_bloginfo('template_url') . '/img/box1.jpg') ?>) no-repeat center center / cover;
+      }
+      #phoebe {
+        background: url(<?php echo get_theme_mod('box2_image', get_bloginfo('template_url') . '/img/box2.jpg') ?>) no-repeat center center / cover;
+      }
+      #ross {
+        background: url(<?php echo get_theme_mod('box3_image', get_bloginfo('template_url') . '/img/box3.jpg') ?>) no-repeat center center / cover;
+      }
     </style>
   </head>
   <body>
@@ -118,54 +127,39 @@
     </section>
 
     <section class="Sub4">
-      <h1>Words From Our Clients</h1>
+      <h1><?php echo get_theme_mod('section4_title', 'Words From Our Clients') ?></h1>
       <div class="Reviews">
         <div class="Review">
           <div
             class="reviewImg"
-            style=" background-image: url(https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7e89aa20603ea9fe62ddc6014276ca41&auto=format&fit=crop&w=634&q=80) "
+            id="chandler"
           ></div>
           <div class="reviewText">
-            <h4>Chandler</h4>
-            <h5 style="text-transform: 'uppercase'">Resistance Training</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              illo repellat quisquam earum numquam mollitia veniam, ea et
-              accusantium at sapiente quo odio non quae eaque perspiciatis natus
-              quas inventore.
-            </p>
+            <h4><?php echo get_theme_mod('customer1_name', 'Chandler') ?></h4>
+            <h5 style="text-transform: 'uppercase'"><?php echo get_theme_mod('customer1_program', 'Resistance Training') ?></h5>
+            <p><?php echo get_theme_mod('customer1_text', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo repellat quisquam earum numquam mollitia veniam, ea et accusantium at sapiente quo odio non quae eaque perspiciatis natus quas inventore.') ?></p>
           </div>
         </div>
         <div class="Review">
           <div
             class="reviewImg"
-            style="background-image: url(https://images.unsplash.com/photo-1535324492437-d8dea70a38a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5020948430163a1dccb8aa26070664c4&auto=format&fit=crop&w=687&q=80)"
+            id="phoebe"
           ></div>
           <div class="reviewText">
-            <h4>Phoebe</h4>
-            <h5 style="text-transform: 'uppercase'">Boxing</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              illo repellat quisquam earum numquam mollitia veniam, ea et
-              accusantium at sapiente quo odio non quae eaque perspiciatis natus
-              quas inventore.
-            </p>
+            <h4><?php echo get_theme_mod('customer2_name', 'Phoebe') ?></h4>
+            <h5 style="text-transform: 'uppercase'"><?php echo get_theme_mod('customer2_program', 'Boxing') ?></h5>
+            <p><?php echo get_theme_mod('customer2_text', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo repellat quisquam earum numquam mollitia veniam, ea et accusantium at sapiente quo odio non quae eaque perspiciatis natus quas inventore.') ?></p>
           </div>
         </div>
         <div class="Review">
           <div
             class="reviewImg"
-            style="background-image: url(https://images.unsplash.com/photo-1535441577682-5a7bc0702a7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=077e17fb017e1258f3d5d3709729640a&auto=format&fit=crop&w=500&q=60) "
+            id="ross"
           ></div>
           <div class="reviewText">
-            <h4>Ross</h4>
-            <h5 style="text-transform: 'uppercase'">Yoga</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              illo repellat quisquam earum numquam mollitia veniam, ea et
-              accusantium at sapiente quo odio non quae eaque perspiciatis natus
-              quas inventore.
-            </p>
+            <h4><?php echo get_theme_mod('customer3_name', 'Ross') ?></h4>
+            <h5 style="text-transform: 'uppercase'"><?php echo get_theme_mod('customer3_program', 'Yoga') ?></h5>
+            <p><?php echo get_theme_mod('customer3_text', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo repellat quisquam earum numquam mollitia veniam, ea et accusantium at sapiente quo odio non quae eaque perspiciatis natus quas inventore.') ?></p>
           </div>
         </div>
       </div>

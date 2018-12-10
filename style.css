@@ -9,6 +9,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Hero Styles */
 
 .Hero {
@@ -228,12 +232,9 @@ body {
   border-radius: 35px;
   padding: 1vh 2vh;
   cursor: pointer;
-}
-
-.Sub3 .sub3Text .schedule .event .right h5:hover {
   background: #00d5ff;
-  cursor: pointer;
-  transition: 1s ease;
+}
+.Sub3 .sub3Text .schedule .event .right h5 a {
   color: #fff;
 }
 
