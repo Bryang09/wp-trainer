@@ -167,17 +167,10 @@
 
     <section class="Sub5">
       <div class="Container">
-        <div class="sub5Img"><h1>About the Trainer</h1></div>
+        <div class="sub5Img"><h1><?php echo get_theme_mod('sub5_title') ?></h1></div>
         <div class="sub5Text">
-          <h1><span>Elsa Mars </span>/ Personal Trainer</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, porro
-            assumenda exercitationem non, consectetur aliquam reprehenderit nemo
-            doloremque quisquam, aut natus iste amet nesciunt eligendi fuga hic
-            id. Ducimus, corrupti.Expedita nulla minus quibusdam nobis
-            voluptates, tenetur repudiandae recusandae a rerum id tempore nihil
-            atque neque consequatur tempora temporibus explicabo impedit,
-            exercitationem harum odio culpa quidem, vero earum dolor! Sint!
+          <h1><span><?php echo get_theme_mod('sub5_name', 'Elsa Mars') ?></span>/ <?php echo get_theme_mod('sub5_desc', 'PERSONAL TRAINER') ?></h1>
+          <p><?php echo get_theme_mod('sub5_text', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, porro assumenda exercitationem non, consectetur aliquam reprehenderit nemo doloremque quisquam, aut natus iste amet nesciunt eligendi fuga hic id. Ducimus, corrupti.Expedita nulla minus quibusdam nobis voluptates, tenetur repudiandae recusandae a rerum id tempore nihil atque neque consequatur tempora temporibus explicabo impedit, exercitationem harum odio culpa quidem, vero earum dolor! Sint!') ?>
           </p>
         </div>
       </div>

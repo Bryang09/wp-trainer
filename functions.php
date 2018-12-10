@@ -679,8 +679,120 @@ function wp_customize_register($wp_customize)
   ));
 
   $wp_customize->add_control('sub5_title', array(
-    'label' => __('Customer 3 Text'),
-    'section' => 'sub4',
+    'label' => __('Section 5 Title'),
+    'section' => 'sub5',
+    'priority' => 3
+  ));
+
+  $wp_customize->add_setting('sub5_name', array(
+    'default' => __('Elsa Mars', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('sub5_name', array(
+    'label' => __('Section 5 Name'),
+    'section' => 'sub5',
+    'priority' => 3
+  ));
+
+  $wp_customize->add_setting('sub5_desc', array(
+    'default' => __('Personal Trainer', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('sub5_desc', array(
+    'label' => __('Section 5 Description'),
+    'section' => 'sub5',
+    'priority' => 3
+  ));
+
+  $wp_customize->add_setting('sub5_text', array(
+    'default' => __('Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, porro assumenda exercitationem non, consectetur aliquam reprehenderit nemo doloremque quisquam, aut natus iste amet nesciunt eligendi fuga hic id. Ducimus, corrupti.Expedita nulla minus quibusdam nobis voluptates, tenetur repudiandae recusandae a rerum id tempore nihil atque neque consequatur tempora temporibus explicabo impedit, exercitationem harum odio culpa quidem, vero earum dolor! Sint!', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('sub5_text', array(
+    'label' => __('Section 5 Text'),
+    'section' => 'sub5',
+    'priority' => 3
+  ));
+
+  $wp_customize->add_section('footer', array(
+    'title' => __('Footer', 'Elsa Mars'),
+    'description' => sprintf(__('Options for Footer'), 'Elsa Mars'),
+    'priority' => 130
+  ));
+
+  $wp_customize->add_setting('footer_title', array(
+    'default' => __('Elsa Mars', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_title', array(
+    'label' => __('Footer Title Title'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+  $wp_customize->add_setting('footer_link1', array(
+    'default' => __('Facebook', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link1', array(
+    'label' => __('Footer Link 1'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+  $wp_customize->add_setting('footer_link1_url', array(
+    'default' => __('http://test.com', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link1_url', array(
+    'label' => __('Footer Link 1 URL'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+
+  $wp_customize->add_setting('footer_link2', array(
+    'default' => __('Instagram', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link2', array(
+    'label' => __('Footer Link 2'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+  $wp_customize->add_setting('footer_link2_url', array(
+    'default' => __('http://test.com', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link2_url', array(
+    'label' => __('Footer Link 2 URL'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+
+  $wp_customize->add_setting('footer_link3', array(
+    'default' => __('Instagram', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link3', array(
+    'label' => __('Footer Link 2'),
+    'section' => 'footer',
+    'priority' => 3
+  ));
+  $wp_customize->add_setting('footer_link3_url', array(
+    'default' => __('http://test.com', 'Elsa Mars'),
+    'type' => 'theme_mod'
+  ));
+
+  $wp_customize->add_control('footer_link3_url', array(
+    'label' => __('Footer Link 2 URL'),
+    'section' => 'footer',
     'priority' => 3
   ));
 
